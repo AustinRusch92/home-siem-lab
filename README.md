@@ -7,6 +7,7 @@ A personal security lab built to simulate, detect, and document real-world attac
 ## Lab Architecture
 
 | Component | Tool | Role |
+|---|
 | SIEM & EDR | Wazuh 4.14 | Detection, correlation, alerting |
 | Log storage | OpenSearch | Indexing and search |
 | Dashboard | Wazuh Dashboard | Visualization and triage |
@@ -23,6 +24,7 @@ A personal security lab built to simulate, detect, and document real-world attac
 Each scenario maps to a MITRE ATT&CK technique and includes a full incident report with timeline, IOCs, and remediation recommendations.
 
 | # | Scenario | MITRE Technique | Report |
+|----|
 | 1 | SSH brute force via Hydra | T1110.001 — Brute Force: Password Guessing | [IR-001](./incident-reports/IR-001-ssh-brute-force.md) |
 | 2 | Network reconnaissance via Nmap | T1046 — Network Service Discovery | [IR-002](./incident-reports/IR-002-nmap-recon.md) |
 | 3 | Local privilege escalation | T1548 — Abuse Elevation Control Mechanism | [IR-003](./incident-reports/IR-003-privilege-escalation.md) |
